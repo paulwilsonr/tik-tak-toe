@@ -1,0 +1,51 @@
+#gameBoard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 500px;
+    height: 500px;
+    gap: 5px;
+    background-color: black;
+}
+
+.playingSquare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    background-color: white;
+}
+
+#scoreboard {
+    width: 500px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#playerOneTurn {
+    background-color: yellow;
+    padding: 10px;
+
+}
+
+#playerTwoTurn {
+    padding: 10px;
+}
+
+#scoreboard p {
+    padding: 0px 10px 0px 10px;
+}
+
+.playerToken {
+    font-size: 100px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.playerScore {
+    margin: 0;
+    padding: 0;
+}
+
